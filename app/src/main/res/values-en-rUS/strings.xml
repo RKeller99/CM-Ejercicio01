@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Titulo">Form</string>
+    <string name="nombre">Name</string>
+    <string name="Apellidos">Surnames</string>
+    <string name="FechaNacimiento">Birth Date</string>
+    <string name="Correo">Email</string>
+    <string name="NumCuenta">Student\'s Card Number</string>
+    <string name="Carrera">Career</string>
+    <string name="Continuar">Continue</string>
+    <string name="ValorRequerido">Required Value</string>
+    <string name="NombreValido">Please enter a valid name</string>
+    <string name="ApellidosValido">Please enter a valid surname</string>
+    <string name="FechaNacimientoValido">Please enter your birth date</string>
+    <string name="CorreoValido">Please enter a valid email</string>
+    <string name="NumCuentaValido">Please enter a valid student card number</string>
+    <string name="DatosCorrectos">Data entered correctly</string>
+    <string name="DatosIncorrectos">"Error entering data "</string>
+
+    <string-array name="ListaCarreras">
+        <item>Select your career</item>
+        <item>Aerospace Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Electronic Electrical Engineering</item>
+        <item>Geophysical Engineering</item>
+        <item>Geological Engineering</item>
+        <item>Geomatics Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Mining and Metallurgical Engineering</item>
+        <item>Petroleum Engineering</item>
+        <item>Biomedical Systems Engineering</item>
+        <item>Telecommunications Engineering</item>
+    </string-array>
+
+    <plurals name="edadRes">
+        <item quantity="one"> %d year old</item>
+        <item quantity="other"> %d years old</item>
+    </plurals>
+
+    <string-array name="SignoZodiaco">
+        <item>Aquarius</item>
+        <item>Pisces</item>
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+    </string-array>
+
+    <string-array name="SignoZodiacoChino">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
+
+    <string name="Regresar">Back</string>
+    <string name="CarreraValido">Please select your career</string>
+    <string name="NombreCompleto">Full Name</string>
+    <string name="Edad">Age</string>
+    <string name="SignoZodiacal">Zodiac Sign</string>
+    <string name="SignoChino">Chinese Zodiac Sign</string>
+</resources>

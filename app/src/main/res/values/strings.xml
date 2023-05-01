@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name" translatable="false">Ejercicio01</string>
+    <string name="Titulo">Formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="FechaNacimiento">Fecha de Nacimiento</string>
+    <string name="Correo">Correo Electrónico</string>
+    <string name="NumCuenta">Número de Cuenta</string>
+    <string name="Carrera">Carrera</string>
+    <string name="Continuar">Continuar</string>
+    <string name="ValorRequerido">Valor Requerido</string>
+
+    <string name="NombreValido">"Por favor ingresa un nombre válido"</string>
+    <string name="ApellidosValido">"Por favor ingresa apellidos válidos"</string>
+    <string name="FechaNacimientoValido">"Por favor ingresa una fecha de nacimiento válida"</string>
+    <string name="CorreoValido">"Por favor ingresa un correo electrónico válido"</string>
+    <string name="NumCuentaValido">"Por favor ingresa un número de cuenta válido"</string>
+    <string name="CarreraValido">"Por favor selecciona una carrera"</string>
+
+    <string name="DatosCorrectos">"Datos ingresados correctamente"</string>
+    <string name="DatosIncorrectos">"Error al ingresar los datos"</string>
+
+    <string-array name="ListaCarreras">
+        <item>Seleccione su carrera</item>
+        <item>Ingeniería Aeroespacial</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería en Computación</item>
+        <item>Ingeniería Eléctrica Electrónica</item>
+        <item>Ingeniería Geofísica</item>
+        <item>Ingeniería Geológica</item>
+        <item>Ingeniería Geomática</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Mecánica</item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería de Minas y Metalúrgia</item>
+        <item>Ingeniería Petrolera</item>
+        <item>Ingeniería en Sistemas Biomédicos</item>
+        <item>Ingeniería en Telecomunicaciones</item>
+    </string-array>
+
+    <string-array name="SignoZodiaco">
+        <item>Acuario</item>
+        <item>Piscis</item>
+        <item>Aries</item>
+        <item>Tauro</item>
+        <item>Géminis</item>
+        <item>Cáncer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Escorpio</item>
+        <item>Sagitario</item>
+        <item>Capricornio</item>
+    </string-array>
+
+    <string-array name="SignoZodiacoChino">
+        <item>Rata</item>
+        <item>Buey</item>
+        <item>Tigre</item>
+        <item>Conejo</item>
+        <item>Dragón</item>
+        <item>Serpiente</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+        <item>Mono</item>
+        <item>Gallo</item>
+        <item>Perro</item>
+        <item>Cerdo</item>
+    </string-array>
+
+
+    <plurals name="edadRes">
+        <item quantity="one"> %d año cumplido</item>
+        <item quantity="other"> %d años cumplidos</item>
+    </plurals>
+
+    <string name="Autor" translatable="false">Rodolfo Andrés Keller Ascencio</string>
+    <string name="Version" translatable="false">Version 1.0</string>
+    <string name="Regresar">Regresar</string>
+    <string name="NombreCompleto">Nombre Completo</string>
+    <string name="Edad">Edad</string>
+    <string name="SignoZodiacal">Signo Zodiacal</string>
+    <string name="SignoChino">Signo Horóscopo Chino</string>
+
+</resources>

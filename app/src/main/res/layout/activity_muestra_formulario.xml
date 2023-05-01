@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg07"
+    tools:context=".MuestraFormulario">
+
+    <TextView
+        android:id="@+id/tv_edad2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Edad"
+        android:textAllCaps="false"
+        android:textColor="@color/color_btn"
+        android:textSize="@dimen/textViewSize"
+        app:layout_constraintStart_toStartOf="@+id/tv_edad"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edad" />
+
+    <TextView
+        android:id="@+id/tv_signozodiacal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/SignoZodiacal"
+        android:textAllCaps="false"
+        android:textColor="@color/color_btn"
+        android:textSize="@dimen/textViewSize"
+        app:layout_constraintStart_toStartOf="@+id/tv_signozodiacal"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signozodiacal" />
+
+    <TextView
+        android:id="@+id/tv_signozodiacalchino2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/SignoChino"
+        android:textAllCaps="false"
+        android:textColor="@color/color_btn"
+        android:textSize="@dimen/textViewSize"
+        app:layout_constraintStart_toStartOf="@+id/tv_signozodiacalchino"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signozodiacalchino" />
+
+    <TextView
+        android:id="@+id/tv_correo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Correo"
+        android:textAllCaps="false"
+        android:textColor="@color/color_btn"
+        android:textSize="@dimen/textViewSize"
+        app:layout_constraintStart_toStartOf="@+id/tv_correo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_correo" />
+
+    <TextView
+        android:id="@+id/tv_numCuenta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/NumCuenta"
+        android:textAllCaps="false"
+        android:textColor="@color/color_btn"
+        android:textSize="@dimen/textViewSize"
+        app:layout_constraintStart_toStartOf="@+id/tv_numCuenta"
+        app:layout_constraintTop_toBottomOf="@+id/tv_numCuenta" />
+
+    <TextView
+        android:id="@+id/tv_nombrecompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/kgblankspacesolid"
+        android:text="@string/NombreCompleto"
+        android:textAllCaps="false"
+        android:textColor="@color/color_tv_Formulario"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nombrecompleto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/NombreCompleto"
+        android:textAllCaps="false"
+        android:textColor="@color/color_btn"
+        android:textSize="@dimen/textViewSize"
+        app:layout_constraintStart_toStartOf="@+id/tv_nombrecompleto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombrecompleto" />
+
+    <TextView
+        android:id="@+id/tv_signozodiacal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/kgblankspacesolid"
+        android:text="@string/SignoZodiacal"
+        android:textColor="@color/color_tv_Formulario"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_edad2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edad2" />
+
+    <TextView
+        android:id="@+id/tv_signozodiacalchino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/kgblankspacesolid"
+        android:text="@string/SignoChino"
+        android:textColor="@color/color_tv_Formulario"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_signozodiacal2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signozodiacal2" />
+
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/kgblankspacesolid"
+        android:text="@string/Correo"
+        android:textColor="@color/color_tv_Formulario"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_signozodiacalchino2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signozodiacalchino2" />
+
+    <TextView
+        android:id="@+id/tv_numCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/kgblankspacesolid"
+
+        android:text="@string/NumCuenta"
+        android:textColor="@color/color_tv_Formulario"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_correo2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_correo2" />
+
+    <TextView
+        android:id="@+id/tv_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/kgblankspacesolid"
+        android:text="@string/Edad"
+        android:textColor="@color/color_tv_Formulario"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_nombrecompleto2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombrecompleto2" />
+
+    <Button
+        android:id="@+id/btn_regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/color_btn"
+        android:fontFamily="@font/kgblankspacesolid"
+        android:onClick="clickRegresar"
+        android:text="@string/Regresar"
+        android:textSize="@dimen/textViewSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iv_carrera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="17dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_regresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_numCuenta2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
