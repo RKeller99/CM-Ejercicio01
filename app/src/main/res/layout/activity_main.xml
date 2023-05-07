@@ -135,7 +135,7 @@
         android:background="@color/color_caja_Formulario"
         android:ems="10"
         android:inputType="textPersonName"
-        android:maxLength="50"
+        android:maxLength="20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tv_Apellidos"
         app:layout_constraintTop_toTopOf="parent"

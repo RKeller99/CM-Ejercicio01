@@ -22,11 +22,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-    var numCuenta = 0
-    var year = 0
-    var month = 0
-    var day = 0
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
@@ -41,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         ).also { adapter ->
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
             binding.spinner.adapter = adapter
+
         }
 
         binding.spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
@@ -166,6 +162,7 @@ class MainActivity : AppCompatActivity() {
     fun clickCalendario(view: View) {
         val Dialogfecha = DatePickerFragment{year, month, day -> mostrarResultado(year, month, day)}
 
+
         Dialogfecha.show(supportFragmentManager, "DatePicker")
     }
 
@@ -185,9 +182,9 @@ class MainActivity : AppCompatActivity() {
             //val datePickerDialog = DatePickerDialog(requireActivity(),R.style.datePickerTheme,this, year, month, day)
             val datePickerDialog = DatePickerDialog(requireActivity(),this, year, month, day)
             val calendarMaxDate = Calendar.getInstance().apply {
-                set(2010, 0, 1)}
+                set(2023, 0, 1)}
             val maxDate = calendarMaxDate.timeInMillis
-            //datePickerDialog.datePicker.maxDate = System.currentTimeMillis()
+            datePickerDialog.datePicker.maxDate = System.currentTimeMillis()
             datePickerDialog.datePicker.maxDate = maxDate
             val calendarMinDate = Calendar.getInstance().apply {
                 set(1900, 0, 1)}
